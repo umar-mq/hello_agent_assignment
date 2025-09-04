@@ -5,6 +5,6 @@
 
 ## Usage
  - `git clone https://github.com/umar-mq/hello_agent_assignment.git`
- - `cd hello_agent_assignment/packaged_agent`
+ - `cd hello_agent_assignment/packaged-agent`
  - `uv sync --frozen`
  - `uv run packaged-agent`
