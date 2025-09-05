@@ -1,0 +1,20 @@
+[project]
+name = "packaged-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "umarmnaq", email = "102142660+umarmnaq@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai-agents[litellm]>=0.2.11",
+]
+
+[project.scripts]
+packaged-agent = "packaged_agent:run"
+
+[build-system]
+requires = ["uv_build>=0.8.8,<0.9.0"]
+build-backend = "uv_build"
